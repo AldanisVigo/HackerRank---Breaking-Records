@@ -13,7 +13,7 @@ function breakingRecords(scores) {
         if(currentRecord == null && lowestRecord == null){
             currentRecord = scores[i]
             lowestRecord = scores[i]
-            continue;
+            continue
         }
 
         if(currentRecord < scores[i]){
